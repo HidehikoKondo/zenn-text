@@ -1,9 +1,9 @@
-title: "サンプル"
-summary: "booksのひな形"
-topics: []
+title: "中学生でもできる！HTML/CSS超入門"
+summary: "文章よりも図解と動画でWeb制作方法を解説します。"
+topics: [html, css, GitHub]
 published: false
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
-  - example1
-  - example2
+  - chapter1
+  - chapter2
