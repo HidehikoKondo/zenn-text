@@ -6,6 +6,8 @@ topics: ["html", "css"]
 # この本で学ぶこと
 はじめてホームページを作るときにどうすればよいのかわかるようになります。
 
+@[codepen](https://codepen.io/hidehikokondo/pen/BamOPMM)
+
 # 目次
 - はじめに
     - ホームページ作成に必要なもの
