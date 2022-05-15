@@ -11,6 +11,3 @@ topics: ["html", "css"]
 書く場所は`<body>`タグの中だよ。
 
 @[codepen](https://codepen.io/hidehikokondo/pen/OJQbKrm)
-
-
-https://codepen.io/hidehikokondo/pen/OJQbKrm
