@@ -1,0 +1,91 @@
+body {
+    /* 背景のグラデーション */
+    background: linear-gradient(180deg,
+            #4383FF 0%,
+            #84AEFF 100%);
+    /* フォントの種類 */
+    font-family: 'Noto Sans JP', sans-serif;
+    /* 文字の色 */
+    color: #444444;
+    text-align: center;
+}
+
+h1 {
+    /* 見出しの文字の色 */
+    color: #ffffff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    /* 見出しの文字の色 */
+    color: #ffffff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+/* section {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    text-align: center;
+} */
+
+i {
+    font-size: 40px;
+}
+
+.maxtemp {
+    color: #ff0000;
+}
+
+.mintemp {
+    color: #0000ff;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section1>div {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 49%;
+}
+
+.section2 {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.week {
+    display: flex;
+    justify-content: space-around;
+}
+
+.week>div {
+    /* background: #f9e5c7; */
+}
+
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #444444;
+}
+
+a:active {
+    color: #ffffff;
+}
