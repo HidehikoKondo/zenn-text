@@ -19,7 +19,8 @@ topics: ["html", "css"]
 
 
 #コード
-'''html
+
+```html:index.html
 + <html>
 - <body>
 <h1>
@@ -28,4 +29,4 @@ topics: ["html", "css"]
 はじめまして
 </body>
 </html>
-'''
+```
