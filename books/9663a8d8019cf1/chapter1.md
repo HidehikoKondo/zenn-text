@@ -20,7 +20,7 @@ topics: ["html", "css"]
 
 #コード
 
-```html:index.html
+```diff html:index.html
 + <html>
 - <body>
 <h1>
