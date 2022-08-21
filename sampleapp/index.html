@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<!-- ページの設定 -->
+
+<head>
+    <!-- タイトル -->
+    <title>天気予報</title>
+
+    <!-- ページの設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ページ全体 -->
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- 大見出し -->
+        <h1>愛知県の天気</h1>
+    </header>
+    <!-- 記事 -->
+    <article>
+        <!-- 見出し -->
+        <h2>今日と明日の天気</h2>
+        <!-- セクション -->
+        <section class="section1">
+            <!-- 今日の天気 -->
+            <div class="today">
+                <!-- 小見出し -->
+                <h3>7月31日（土）</h3>
+                <!-- 天気の画像 -->
+                <img class="weather" src="image/sunny.png">
+                <!-- 気温 -->
+                <p>
+                    最高気温 <span class="maxtemp">32℃</span><br>
+                    最低気温 <span class="mintemp">28℃</span>
+                </p>
+                <!-- 天気の詳細 -->
+                <p class="description">一部の地域で曇りますが、おおむね晴れます</p>
+            </div>
+            <!-- 明日の天気 -->
+            <div class="tommorow">
+                <!-- 小見出し -->
+                <h3>8月1日（日）</h3>
+                <!-- 天気の画像 -->
+                <img class="weather" src="image/rainy.png">
+                <!-- 気温 -->
+                <p>
+                    最高気温 <span class="maxtemp">29℃</span></br>
+                    最低気温 <span class="mintemp">21℃</span>
+                </p>
+                <!-- 天気の詳細 -->
+                <p class="description">雨が降ります雷に注意</p>
+            </div>
+        </section>
+        <!-- 見出し -->
+        <h2>今週の天気</h2>
+        <!-- セクション -->
+        <section class="section2">
+            <!-- 今週の天気 -->
+            <div class="week">
+                <div>
+                    <!-- 日付 -->
+                    <p>8/2(月)</p>
+                    <!-- 天気の画像 -->
+                    <img class="weather" src="image/sunny.png">
+                    <!-- 気温 -->
+                    <p>
+                        <span class="maxtemp">33℃</span><br>
+                        <span class="mintemp">29℃</span>
+                    </p>
+                </div>
+                <div>
+                    <!-- 日付 -->
+                    <p>8/3(火)</p>
+                    <!-- 天気の画像 -->
+                    <img class="weather" src="image/sunny.png">
+                    <!-- 気温 -->
+                    <p>
+                        <span class="maxtemp">38℃</span><br>
+                        <span class="mintemp">30℃</span>
+                    </p>
+                </div>
+                <div>
+                    <!-- 日付 -->
+                    <p>8/4(水)</p>
+                    <!-- 天気の画像 -->
+                    <img class="weather" src="image/sunny.png">
+                    <!-- 気温 -->
+                    <p>
+                        <span class="maxtemp">34℃</span><br>
+                        <span class="mintemp">29℃</span>
+                    </p>
+                </div>
+                <div>
+                    <!-- 日付 -->
+                    <p>8/5(木)</p>
+                    <!-- 天気の画像 -->
+                    <img class="weather" src="image/sunny.png">
+                    <!-- 気温 -->
+                    <p>
+                        <span class="maxtemp">32℃</span><br>
+                        <span class="mintemp">25℃</span>
+                    </p>
+                </div>
+                <div>
+                    <!-- 日付 -->
+                    <p>8/6(金)</p>
+                    <!-- 天気の画像 -->
+                    <img class="weather" src="image/cloudy.png">
+                    <!-- 気温 -->
+                    <p>
+                        <span class="maxtemp">28℃</span><br>
+                        <span class="mintemp">22℃</span>
+                    </p>
+                </div>
+            </div>
+            <!-- 天気の詳細 -->
+            <p class="description">
+                今週は一部の地域で曇りますが、今週は晴れる日が多いでしょう。湿度が高く蒸し暑いので、日中は熱中症に注意しましょう。寝苦しい夜が続きますので、夜もエアコンをかけましょう。
+            </p>
+        </section>
+    </article>
+
+    <!-- フッター -->
+    <footer>
+        <!-- 見出し -->
+        <h2>ほかの地域の天気</h2>
+        <!-- ほかの地域のページにリンク -->
+        <p>
+            <a href="tokyo.html">東京都</a> |
+            <a href="osaka.html">大阪府</a> |
+            <a href="hokkaido.html">北海道</a>
+        </p>
+        <!-- コピーライト（このWebサイトを作った人や会社の名前） -->
+        <a href="http://www.codefriends.jp/">CODEFRIENDS</a>
+
+    </footer>
+</body>
+
+</html>
+<script>
+    defaultMessage();
+</script>
