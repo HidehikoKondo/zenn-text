@@ -1,3 +1,4 @@
+/* 画面の全体の設定 */
 body {
     /* 背景のグラデーション */
     background: linear-gradient(180deg,
@@ -7,54 +8,54 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     /* 文字の色 */
     color: #444444;
+    /* 文字や画像の並べ方 */
     text-align: center;
 }
 
+/* 見出し */
 h1 {
-    /* 見出しの文字の色 */
+    /* 文字の色 */
     color: #ffffff;
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-}
-
-footer {
-    /* 見出しの文字の色 */
-    color: #ffffff;
+    /* 文字の装飾 */
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 
-/* section {
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 
-    text-align: center;
-} */
-
-i {
-    font-size: 40px;
-}
-
+/* 最高気温 */
 .maxtemp {
+    /* 文字の色 */
     color: #ff0000;
 }
 
+/* 最低気温 */
 .mintemp {
+    /* 文字の色 */
     color: #0000ff;
 }
 
-.section1 {
-    display: flex;
-    justify-content: space-between;
 
+/* 第１セクション */
+.section1 {
+    /* フレックスボックスで横並びにする */
+    display: flex;
+    /* 左右均等に並べる */
+    justify-content: space-between;
 }
 
-.section1>div {
+/* 今日と明日の枠の設定  */
+.today,
+.tommorow {
+    /* 背景の色 */
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
     width: 49%;
+}
+
+.description {
+    font-size: 0.8em;
 }
 
 .section2 {
@@ -74,18 +75,32 @@ i {
 }
 
 
+/* フッター */
+footer {
+    /* 文字の色 */
+    color: #ffffff;
+    /* 文字の装飾 */
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* ハイパーリンク設定 */
+/* リンクの色 */
 a:link {
     color: #ffffff;
 }
 
+/* クリック済みのリンクの色 */
 a:visited {
     color: #ffffff;
 }
 
+/* マウスが当たっている時の色 */
 a:hover {
+
     color: #444444;
 }
 
+/* マウスでクリックしている時の色 */
 a:active {
     color: #ffffff;
 }
