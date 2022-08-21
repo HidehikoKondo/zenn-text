@@ -8,18 +8,9 @@ topics: ["html", "css"]
 
 @[codepen](https://codepen.io/hidehikokondo/pen/BamOPMM)
 
+天気予報を題材にWebサイトを作ります。
+
+![image](https://user-images.githubusercontent.com/3691510/185795939-71edf173-786b-4025-a8e7-3b17c907920e.png)
+
+
 # 目次
-- はじめに
-    - ホームページ作成に必要なもの
-    - ホームページの仕組み
-- GitHubの準備
-    - GitHubのアカウントを作ろう
-    - リポジトリを作ろう
-    - GitHub Pagesで公開しよう
-- HTMLを学ぼう
-    - HTMLタグって？
-    - HTMLタグの書き方
-- CSSを学ぼう
-    - 色を付ける
-    - 文字サイズを変える
-    - フォントを変える
