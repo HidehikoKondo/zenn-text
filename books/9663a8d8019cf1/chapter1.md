@@ -6,7 +6,7 @@ topics: ["html", "css"]
 # この本で学ぶこと
 はじめてホームページを作るときにどうすればよいのかわかるようになります。
 
-@[codepen](https://codepen.io/hidehikokondo/pen/BamOPMM)
+@[codepen](https://codepen.io/hidehikokondo/pen/OJvqJRX)
 
 天気予報を題材にWebサイトを作ります。
 
